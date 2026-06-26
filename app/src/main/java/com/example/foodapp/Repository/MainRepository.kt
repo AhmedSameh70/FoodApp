@@ -33,7 +33,7 @@ class MainRepository {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                android.util.Log.e("FirebaseError", "Database Error: ${error.message}")
             }
 
         })
@@ -59,7 +59,7 @@ class MainRepository {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                android.util.Log.e("FirebaseError", "Database Error: ${error.message}")
             }
 
         })
@@ -86,7 +86,7 @@ class MainRepository {
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+                android.util.Log.e("FirebaseError", "Database Error: ${error.message}")
             }
 
         })
